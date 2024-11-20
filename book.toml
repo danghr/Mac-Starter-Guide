@@ -4,3 +4,6 @@ language = "zh-CN"
 multilingual = false
 src = "src"
 title = "Mac 入门指南"
+
+[output.html]
+git-repository-url = "https://github.com/danghr/Mac-Starter-Guide"
