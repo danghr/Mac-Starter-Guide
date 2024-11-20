@@ -1,0 +1,6 @@
+[book]
+authors = ["danghr"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "MacBook 入门指南"
