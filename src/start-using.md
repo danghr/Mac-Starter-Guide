@@ -25,7 +25,7 @@
 
 ## 从 Windows 到 Mac
 
-Apple 提供了一份详细的说明介绍如何上手 Mac：
+建议阅读 Apple 提供的详细说明：
 
 - [MacBook Air](https://support.apple.com/zh-cn/guide/macbook-air/apd1f14ec646/2024/mac/15)
 - [MacBook Pro](https://support.apple.com/zh-cn/guide/macbook-pro/apd1f14ec646/2024/mac/15)
@@ -43,6 +43,7 @@ Apple 提供了一份详细的说明介绍如何上手 Mac：
 - 点按触控板时，只需手指原地向下发力按压再恢复即可，全程无需让手指离开触控板或按压特定区域。部分应用中重压还会触发专门的[用力点按](https://support.apple.com/zh-cn/102309)操作。
 - 使用双指点按触控板相当于 Windows 中的右键点击。
 - 双指在触控板上或使用鼠标滚轮滚动的方向与 Windows 中相反，更接近于在触摸屏上进行滚动的操作。
+- macOS 的右键菜单并没有新建文件的选项，若需创建某一类型的文件，请直接打开相应的应用，编辑后保存。
 
 
 ## 非常难受的刘海
@@ -65,6 +66,9 @@ Apple 提供了以下入门指南供查阅：
 
 [Apple 技术支持网站](https://support.apple.com/zh-cn)提供各类问题的详细说明，如遇到问题可先到这里搜索解决方案。
 
+
 ---
 
+<small>
 更新于 2024-11-20
+</small>

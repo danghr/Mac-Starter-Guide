@@ -31,21 +31,8 @@ Homebrew 则如前文所述也是较为方便的安装软件的方法。阿里�
 对于其他软件，请参考[在 Mac 上卸载 App](https://support.apple.com/zh-cn/102610)。需要注意的是，该卸载过程并不一定会彻底删除其配置文件。如果介意部分残留文件，可使用 [AppCleaner](https://freemacsoft.net/appcleaner/)（通过 `brew install appcleaner`即可安装）或类似软件进行卸载。如果软件开发商提供卸载器，请优先使用卸载器。
 
 
-## 一些常用的软件推荐
-
-以下均为笔者根据自己习惯长期使用的软件，仅供参考。
-
-- IINA：基于 mpv 的播放器，支持比系统自带 QuickTime Player 更多的格式，采用与现代 macOS 相同的设计语言。可通过 `brew install iina` 安装
-- Keka：基于 7-zip 的压缩解压工具，亦支持 zip、tar.gz 等格式的压缩解压，以及 rar 的解压。可通过 `brew install keka` 安装。
-- Motrix：支持 HTTP、FTP、BitTorrent、Magnet 等格式的下载器。可通过 `brew install motrix` 安装。
-
-
-## 运行 Windows 软件
-
-Mac 通过一些特定的转译工具可以运行 Windows 软件，例如 [CrossOver](https://www.codeweavers.com/crossover) 和 [Whisky](https://getwhisky.app)，前者体验更好但是付费软件，后者则是免费的开源软件。
-
-Mac 也可以通过虚拟机安装运行 Windows on ARM。常用的虚拟机软件包括 [Parallels Desktop](https://www.parallels.cn) 和 [UTM](https://mac.getutm.app)，同样是前者体验更好但是付费软件，后者则是免费的开源软件。如需制作 Windows 安装镜像（包括为其他电脑制作），可在 Mac App Store 中免费下载 [CrystalFetch](https://apps.apple.com/cn/app/crystalfetch-iso-downloader/id6454431289?mt=12)，亦可通过 `brew install crystalfetch` 安装。
-
 ---
 
+<small>
 更新于 2024-11-20
+</small>

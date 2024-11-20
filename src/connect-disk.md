@@ -1,6 +1,6 @@
 # 连接 Windows 磁盘
 
-Windows 下常见的 NTFS 是微软专有的文件系统，在 macOS 中仅支持读取。相应地，macOS 中常见的 APFS 是 Apple 专有的文件系统，在 Windows 中无法识别。本节介绍一些能够让同一块磁盘在两边都访问的方法。
+Windows 下常见的 NTFS 是微软专有的文件系统，在 macOS 中仅支持读取而不支持写入。相应地，macOS 中常见的 APFS 是 Apple 专有的文件系统，在 Windows 中无法识别。本节介绍一些能够让同一块磁盘在两边都访问的方法。
 
 
 ## 格式化为 FAT32 或 exFAT
@@ -17,6 +17,9 @@ FAT32 或 exFAT 格式在两个系统下均可以识别。然而，这两个文�
 
 [Microsoft NTFS for Mac by Paragon Software](https://china.paragon-software.com/home-mac/ntfs-for-mac/) 提供在 macOS 下读写 NTFS 磁盘的方案。该软件较为成熟，可以付费购买。需要注意的是，该软件安装过程较为复杂，请严格遵循其安装和卸载说明。
 
+
 ---
 
+<small>
 更新于 2024-11-20
+</small>
