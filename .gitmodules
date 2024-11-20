@@ -2,6 +2,3 @@
 	path = theme
 	url = git@ssh.git.danghr.com:danghr/mdbook_custom_theme.git
 	branch = Mac-Starter-Guide
-[submodule "book"]
-	path = book
-	url = git@ssh.git.danghr.com:danghr/Mac-Starter-Guide-Public.git
