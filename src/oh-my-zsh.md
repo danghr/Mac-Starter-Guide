@@ -16,7 +16,7 @@ cd ../.. && rm -rf ohmyzsh
 
 ## 使用插件、更改主题
 
-功能丰富的插件是 Zsh 相比 Bash 的强大之处。笔者本人推荐 `zsh-syntax-highlighting` 和 `zsh-autosuggestions` 两个插件，以实现代码高亮和自动补全。同时，默认的 `robbyrussell` 主题仅显示当前目录名称，而不显示用户名和完整目录，这在一些场景下可能不太方便。笔者本人推荐使用 `ys` 主题。
+功能丰富的插件是 Zsh 相比 Bash 的强大之处。笔者推荐 `zsh-syntax-highlighting` 和 `zsh-autosuggestions` 两个插件，以实现代码高亮和自动补全。同时，默认的 `robbyrussell` 主题仅显示当前目录名称，而不显示用户名和完整目录，这在一些场景下可能不太方便。笔者推荐使用 `ys` 主题。
 
 使用 Homebrew 安装 `zsh-syntax-highlighting` 和 `zsh-autosuggestions`：
 
