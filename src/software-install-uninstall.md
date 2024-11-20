@@ -7,7 +7,7 @@ Mac 安装软件主要有三种方式
 - 使用 Homebrew
 - 手动运行安装包
 
-推荐首先查找 Mac App Store 中是否有相应的软件。这是安装软件最安全、最方便的方式。微信、QQ、网易云音乐、QQ 音乐、腾讯会议、百度网盘、Microsoft Office、Final Cut Pro X、Logic Pro 等 App 均在 Mac App Store 中提供，也可以安装部分 iOS 和 iPadOS 的软件。关于 Mac App Store 的使用说明，请参见苹果技术支持的[文档](https://support.apple.com/zh-cn/111105)。
+推荐首先查找 Mac App Store 中是否有相应的软件。这是安装软件最安全、最方便的方式。微信、QQ、网易云音乐、QQ 音乐、腾讯会议、百度网盘、Microsoft Office、Final Cut Pro X、Logic Pro 等 App 均在 Mac App Store 中提供，也可以安装部分 iOS 和 iPadOS 的软件。关于 Mac App Store 的使用说明，请参见 Apple 技术支持的[文档](https://support.apple.com/zh-cn/111105)。
 
 Homebrew 则如前文所述也是较为方便的安装软件的方法。阿里云盘、Visual Studio Code、Adobe Acrobat Reader、Keka、OBS、Steam、EndNote、Zotero 以及 Noto 字体均可通过 Homebrew 下载。
 
@@ -28,7 +28,7 @@ Homebrew 则如前文所述也是较为方便的安装软件的方法。阿里�
 
 对于使用 Homebrew 安装的软件，请使用 `brew uninstall` 命令卸载。
 
-对于其他软件，请参考[在 Mac 上卸载 App](https://support.apple.com/zh-cn/102610)。
+对于其他软件，请参考[在 Mac 上卸载 App](https://support.apple.com/zh-cn/102610)。需要注意的是，该卸载过程并不一定会彻底删除其配置文件。如果介意部分残留文件，可使用 [AppCleaner](https://freemacsoft.net/appcleaner/)（通过 `brew install appcleaner`即可安装）或类似软件进行卸载。如果软件开发商提供卸载器，请优先使用卸载器。
 
 
 ## 一些常用的软件推荐
@@ -45,3 +45,7 @@ Homebrew 则如前文所述也是较为方便的安装软件的方法。阿里�
 Mac 通过一些特定的转译工具可以运行 Windows 软件，例如 [CrossOver](https://www.codeweavers.com/crossover) 和 [Whisky](https://getwhisky.app)，前者体验更好但是付费软件，后者则是免费的开源软件。
 
 Mac 也可以通过虚拟机安装运行 Windows on ARM。常用的虚拟机软件包括 [Parallels Desktop](https://www.parallels.cn) 和 [UTM](https://mac.getutm.app)，同样是前者体验更好但是付费软件，后者则是免费的开源软件。如需制作 Windows 安装镜像（包括为其他电脑制作），可在 Mac App Store 中免费下载 [CrystalFetch](https://apps.apple.com/cn/app/crystalfetch-iso-downloader/id6454431289?mt=12)，亦可通过 `brew install crystalfetch` 安装。
+
+---
+
+更新于 2024-11-20

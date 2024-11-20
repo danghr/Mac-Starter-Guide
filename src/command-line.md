@@ -1,17 +1,17 @@
 # 一旦适应就非常好用的命令行
 
-Mac 内置了 Zsh 终端，其操作逻辑与 Linux 下的默认终端 Bash 较为相近，但支持通过更多配置达到更美观的效果或更多的功能。关于终端的使用，请参见[计算机教育中缺失的一课](https://missing-semester-cn.github.io/)，其中[课程概览与 shell](https://missing-semester-cn.github.io/2020/course-shell/) 一节介绍了常用的基础 shell 命令。Mac 还有非常强大的包管理器 [Homebrew](https://brew.sh)，不仅可以安装命令行应用，也可以安装大量常用的桌面应用。
+macOS 内置了 Zsh 终端，其操作逻辑与 Linux 下的默认终端 Bash 较为相近，但支持通过更多配置达到更美观的效果或更多的功能。关于终端的使用，请参见[计算机教育中缺失的一课](https://missing-semester-cn.github.io/)，其中[课程概览与 shell](https://missing-semester-cn.github.io/2020/course-shell/) 一节介绍了常用的基础 shell 命令。Mac 还有非常强大的包管理器 [Homebrew](https://brew.sh)，不仅可以安装命令行应用，也可以安装大量常用的桌面应用。
 
 考虑到国内的网络情况，在下面的安装过程中均使用[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn)进行安装，也可以根据实际情况换用[中科大开源镜像站](https://mirrors.ustc.edu.cn)或其他镜像站。
 
 
 ## 安装 Command Line Tools
 
-Mac 仅自带少量命令行工具，而诸如 `git`、`gcc` 等工具均在 Command Line Tools 中。
+Mac 仅自带少量命令行工具，而诸如 `git`、`gcc` 等工具均包含在 Command Line Tools 中。
 
 打开“终端”，在 shell 中输入
 
-```shell
+```bash
 xcode-select --install
 ```
 
@@ -22,7 +22,7 @@ xcode-select --install
 
 参照镜像站 [Homebrew](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)、[Homebrew Bottles](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew-bottles/) 和 [PyPI](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/) 镜像的说明，在终端中输入设置环境变量的命令：
 
-```shell
+```bash
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
@@ -34,7 +34,7 @@ export HOMEBREW_PIP_INDEX_URL="https://mirrors.tuna.tsinghua.edu.cn/pypi/web/sim
 
 下载并运行安装脚本：
 
-```shell
+```bash
 git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install
 /bin/bash brew-install/install.sh
 rm -rf brew-install
@@ -44,14 +44,14 @@ rm -rf brew-install
 
 安装成功后需将 brew 程序的相关路径加入到环境变量中：
 
-```shell
+```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 同时也需要将上述环境变量的设置加入到环境变量文件中：
 
-```shell
+```bash
 test -r ~/.zprofile && echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"' >> ~/.zprofile
 test -r ~/.zprofile && echo 'export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"' >> ~/.zprofile
 test -r ~/.zprofile && echo 'export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"' >> ~/.zprofile
@@ -131,9 +131,9 @@ install: 28,957 (30 days), 83,924 (90 days), 323,447 (365 days)
 
 ### 安装 Oh My Zsh
 
-参考[清华镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/ohmyzsh.git/)的说明，在终端中运行下述命令：
+参考[镜像站的说明](https://mirrors.tuna.tsinghua.edu.cn/help/ohmyzsh.git/)，在终端中运行下述命令：
 
-```shell
+```bash
 git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git
 cd ohmyzsh/tools
 REMOTE=https://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git sh install.sh
@@ -147,13 +147,13 @@ cd ../.. && rm -rf ohmyzsh
 
 使用 Homebrew 安装 `zsh-syntax-highlighting` 和 `zsh-autosuggestions`：
 
-```shell
+```bash
 brew install zsh-syntax-highlighting zsh-autosuggestions
 ```
 
 使用文件编辑器打开 `~/.zshrc` 文件：
 
-```shell
+```bash
 open ~/.zshrc
 ```
 
@@ -172,3 +172,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 按 Command-S 保存，然后关闭。关闭并重新打开终端即可使用插件和主题。
+
+---
+
+更新于 2024-11-20
