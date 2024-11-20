@@ -1,0 +1,3 @@
+[submodule "theme"]
+	path = theme
+	url = git@ssh.git.danghr.com:danghr/mdbook_custom_theme.git
