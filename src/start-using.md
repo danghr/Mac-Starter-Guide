@@ -36,6 +36,9 @@
 
 默认设置下，一些常用的操作和提示如下：
 
+- 使用 Control-空格键、Mac 键盘左下角的地球仪图标 <img src="./mac-keyboard-earth.png" width="15" height="15" alt="地球仪图标"> 按键以及菜单栏中的输入法选项均可以切换输入法。
+- 使用“中/英”键（即大写锁定键）即可切换英文输入法和非英文输入法（例如中文），长按该键即可开启大写锁定。
+- 使用 Fn-删除键（即退格键）即可向后删除。
 - 剪切、拷贝（Windows 称“复制”）和粘贴操作的快捷键分别是 Command-X、Command-C 和 Command-V。
 - 若使用 Windows 键盘，可使用 Windows 徽标键来代替 Command 键，使用 Alt 键代替 Option 键。
 - macOS 中的“复制”指的是在当前位置创建一份文件的副本。
@@ -50,7 +53,7 @@
 
 MacBook 的“刘海”广受诟病，核心原因倒不是因为它占据了屏幕显示面积（因为 Mac 固定使用最上方的屏幕空间作为菜单栏和状态栏），而是当菜单栏右半边空间不够时，图标会直接消失，而不像 Windows 那样会折叠起来。
 
-这一问题目前只能使用第三方软件解决。做得最好的 [Bartender 5](https://www.macbartender.com/Bartender5/) 是一款收费软件，另有一些免费软件可以选择。笔者的建议是，在“系统设置”—“控制中心”中适当关闭不需要的图标（比如 Siri）以节省空间，以及避免使用音乐软件的菜单栏歌词等占用巨量空间的功能。
+这一问题目前只能使用第三方软件解决，例如付费的 [Bartender 5](https://www.macbartender.com/Bartender5/) 以及免费的 [Ice](https://github.com/jordanbaird/Ice)。强烈建议[安装 Homebrew](./homebrew.md) 之后，再使用 Homebrew 安装这些软件。此外，也可以在“系统设置”—“控制中心”中适当关闭不需要的图标（比如 Siri）以节省空间，以及避免使用音乐软件的菜单栏歌词等占用巨量空间的功能。
 
 
 ## 查阅支持
